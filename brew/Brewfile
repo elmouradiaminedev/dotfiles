@@ -1,0 +1,15 @@
+tap "homebrew/cask-fonts"
+tap "homebrew/services"
+
+cask "arc"
+cask "alacritty"
+brew "starship"
+cask "raycast"
+
+tap "koekeishiya/formulae"
+brew "yabai"  
+brew "skhd"  
+
+cask "font-sauce-code-pro-nerd-font"
+brew "gnupg"
+cask "gpg-suite"

@@ -1,0 +1,11 @@
+[user]
+    name = Amine Elmouradi 
+    email = elmouradi.amine.dev@gmail.com 
+
+[core]
+    editor = vim
+    autocrlf = input
+    filemode = false
+
+[commit]
+    gpgsign = true
