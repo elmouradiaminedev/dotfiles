@@ -1,20 +1,16 @@
-live_config_reload = true
-
 [env]
 TERM = "xterm-256color"
 
 [window]
-option_as_alt = "Both"
-decorations = "none"
-startup_mode = "Windowed"
+decorations = "Buttonless"
 opacity = 0.95
 
 [window.padding]
-x = 8
-y = 8
+x = 12 
+y =  12 
 
 [font]
-size = 18
+size = 16
 
 [font.normal]
 family = "SauceCodePro Nerd Font"
@@ -22,39 +18,55 @@ style = "Regular"
 
 [font.bold]
 family = "SauceCodePro Nerd Font"
-style = "Semibold"
+style = "SemiBold"
 
 [colors.primary]
-background = "0x1e2127"
-foreground = "0xabb2bf"
+background = "#1E1E2E"
+foreground = "#CDD6F4"
+dim_foreground = "#CDD6F4"
+bright_foreground = "#CDD6F4"
+
+[colors.cursor]
+text = "#1E1E2E"
+cursor = "#F5E0DC"
+
+[colors.vi_mode_cursor]
+text = "#1E1E2E"
+cursor = "#B4BEFE"
+
+[colors.search.matches]
+foreground = "#1E1E2E"
+background = "#A6ADC8"
+
+[colors.search.focused_match]
+foreground = "#1E1E2E"
+background = "#A6E3A1"
+
+[colors.footer_bar]
+foreground = "#1E1E2E"
+background = "#A6ADC8"
+
+[colors.hints.start]
+foreground = "#1E1E2E"
+background = "#F9E2AF"
+
+[colors.hints.end]
+foreground = "#1E1E2E"
+background = "#A6ADC8"
+
+[colors.selection]
+text = "#1E1E2E"
+background = "#F5E0DC"
 
 [colors.normal]
-black = "0x1e2127"
-red = "0xe06c75"
-green = "0x98c379"
-yellow = "0xd19a66"
-blue = "0x61afef"
-magenta = "0xc678dd"
-cyan = "0x56b6c2"
-white = "0x828791"
+black = "#45475A"
+red = "#F38BA8"
+green = "#A6E3A1"
+yellow = "#F9E2AF"
+blue = "#89B4FA"
+magenta = "#F5C2E7"
+cyan = "#94E2D5"
+white = "#BAC2DE"
 
 [colors.bright]
-black = "0x5c6370"
-red = "0xe06c75"
-green = "0x98c379"
-yellow = "0xd19a66"
-blue = "0x61afef"
-magenta = "0xc678dd"
-cyan = "0x56b6c2"
-white = "0xe6efff"
-
-[colors.dim]
-black = "0x1e2127"
-red = "0xe06c75"
-green = "0x98c379"
-yellow = "0xd19a66"
-blue = "0x61afef"
-magenta = "0xc678dd"
-cyan = "0x56b6c2"
-white = "0x828791"
-
+black = "#585B70"
