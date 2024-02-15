@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Install xcode command line tools
+xcode-select --install
+
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
@@ -61,6 +64,10 @@ defaults write com.apple.dock showhidden -bool true
 
 # Disable auto rearanging spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
+
+# Disable switching to another space when closing an application
+defaults write com.apple.dock workspaces-auto-swoosh -bool NO
+
 
 #######################################
 #        SCREENSHOT SETTINGS 
@@ -148,7 +155,6 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 
 # Enable appplication firewall
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
-
 
 # Disable "Application Downloaded from Internet" quarantine warning
 defaults write com.apple.LaunchServices "LSQuarantine" -bool "false"
