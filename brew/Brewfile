@@ -1,18 +1,19 @@
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
+tap "koekeishiya/formulae"
+tap "FelixKratz/formulae"
+
+brew "yabai"
+brew "skhd"
 
 cask "arc"
 cask "alacritty"
-brew "starship"
 cask "raycast"
 cask "obsidian"
 cask "docker"
 
-tap "koekeishiya/formulae"
-brew "yabai"  
-brew "skhd"  
-
 cask "font-sauce-code-pro-nerd-font"
+
 brew "gnupg"
 cask "gpg-suite"
 
@@ -21,11 +22,12 @@ brew "emscripten"
 brew "node"
 brew "java"
 brew "boost"
-brew "shfmt"
 brew "act"
 brew "zoxide"
 brew "fzf"
+brew "shfmt"
 
-tap "FelixKratz/formulae"
+brew "starship"
 brew "sketchybar"
 brew "borders"
+
