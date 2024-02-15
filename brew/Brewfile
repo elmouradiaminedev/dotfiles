@@ -11,6 +11,7 @@ cask "alacritty"
 cask "raycast"
 cask "obsidian"
 cask "docker"
+cask "visual-studio-code"
 
 cask "font-sauce-code-pro-nerd-font"
 cask "font-hack-nerd-font"

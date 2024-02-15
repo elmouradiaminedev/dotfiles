@@ -68,6 +68,12 @@
         "options": {
           "full_name": "sf-symbols"
         }
+      },
+      "visual-studio-code": {
+        "version": "1.86.2",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
       }
     },
     "brew": {
