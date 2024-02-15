@@ -36,3 +36,8 @@ brew "starship"
 brew "sketchybar"
 brew "borders"
 brew "neofetch"
+
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "fzf"
+brew "fd"
