@@ -13,6 +13,11 @@ cask "obsidian"
 cask "docker"
 
 cask "font-sauce-code-pro-nerd-font"
+cask "font-hack-nerd-font"
+cask "sf-symbols" 
+brew "switchaudio-osx"
+brew "jq"
+brew  "gh"
 
 brew "gnupg"
 cask "gpg-suite"
@@ -30,4 +35,4 @@ brew "shfmt"
 brew "starship"
 brew "sketchybar"
 brew "borders"
-
+brew "neofetch"
