@@ -1,3 +1,4 @@
+export GPG_TTY=$(tty)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export FZF_DEFAULT_COMMAND='fd --type file --hidden --no-ignore'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
@@ -11,5 +12,6 @@ eval "$(zoxide init zsh)"
 
 eval "$(starship init zsh)"
 
-bindkey '^I' autosuggest-accept
-
+alias ls='lsd'
+alias l='lsd --almost-all --long'
+alias lt='lsd --tree --depth=2'

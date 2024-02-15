@@ -13,12 +13,13 @@ y =  12
 size = 16
 
 [font.normal]
-family = "SauceCodePro Nerd Font"
+family = "FiraCode Nerd Font Mono"
 style = "Regular"
 
 [font.bold]
-family = "SauceCodePro Nerd Font"
+family = "FiraCode Nerd Font Mono"
 style = "SemiBold"
+
 
 [colors.primary]
 background = "#1E1E2E"
