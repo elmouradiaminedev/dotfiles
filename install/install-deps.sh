@@ -9,7 +9,7 @@ function install_brew() {
     which -s brew
 
     if [[ $? != 0 ]] ; then
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" -y
     else
         brew update
     fi
@@ -19,7 +19,8 @@ function install_brew() {
 
 function install_deps() {
     brew bundle --file ./brew/Brewfile
-    $(brew --prefix)/opt/fzf/install
+
+    $(brew --prefix)/opt/fzf/install --all
 
     success "installed homebrew dependencies ..."
 
