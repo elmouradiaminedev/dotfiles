@@ -23,7 +23,6 @@ link_file () {
 
     if [ "$overwrite_all" == "false" ] && [ "$backup_all" == "false" ] && [ "$skip_all" == "false" ]
     then
-
       # ignoring exit 1 from readlink in case where file already exists
       # shellcheck disable=SC2155
       local currentSrc="$(readlink $dst)"
@@ -124,7 +123,6 @@ start_services () {
    info "Starting services..."
    skhd --restart-service
    yabai --restart-service
-   brew services restart sketchybar
    brew services restart borders
    success 'started skhd, yabai, sketchybar and borders services'
 }

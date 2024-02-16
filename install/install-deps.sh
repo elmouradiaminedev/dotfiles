@@ -21,6 +21,7 @@ function install_deps() {
     brew bundle --file ./brew/Brewfile
 
     $(brew --prefix)/opt/fzf/install --all
+    git clone https://github.com/Aloxaf/fzf-tab ~/.fzf-tab
 
     success "installed homebrew dependencies ..."
 
