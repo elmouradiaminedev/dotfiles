@@ -20,10 +20,6 @@ shift + alt - n : yabai -m window --space next;
 shift + alt - 1 : yabai -m window --space 1;
 shift + alt - 2 : yabai -m window --space 2;
 shift + alt - 3 : yabai -m window --space 3;
-shift + alt - 4 : yabai -m window --space 4;
-shift + alt - 5 : yabai -m window --space 5;
-shift + alt - 6 : yabai -m window --space 6;
-shift + alt - 7 : yabai -m window --space 7;
 
 # move window to display
 shift + alt - s : yabai -m window --display west; yabai -m display --focus west;
@@ -36,8 +32,8 @@ ctrl + alt - k : yabai -m window --resize top:0:-20 ; yabai -m window --resize b
 ctrl + alt - l : yabai -m window --resize right:20:0 ; yabai -m window --resize left:20:0
 
 # maximize window
-shift + alt - m : yabai -m window --toggle zoom-fullscreen
+alt - f : yabai -m window --toggle zoom-fullscreen
 
 # balance out tree of windows (resize to occupy same area)
-shift + alt - e : yabai -m space --balance
+alt - e : yabai -m space --balance
 

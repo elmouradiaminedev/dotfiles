@@ -27,11 +27,11 @@ yabai -m config split_ratio                0.50
 yabai -m config auto_balance               off
 
 yabai -m config layout                     bsp
-yabai -m config top_padding                8
-yabai -m config bottom_padding             8
-yabai -m config left_padding               8
-yabai -m config right_padding              8
-yabai -m config window_gap                 6
+yabai -m config window_gap                 12
+yabai -m config top_padding                12 
+yabai -m config bottom_padding             12 
+yabai -m config left_padding               12 
+yabai -m config right_padding              12 
 
 yabai -m rule --add app="^Finder$" sticky=on layer=above manage=off
 yabai -m rule --add app="^choose$" layer=above manage=off
