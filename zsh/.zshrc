@@ -13,7 +13,6 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
-
 # Aliases
 alias ls='lsd'
 alias l='lsd --almost-all --long'
