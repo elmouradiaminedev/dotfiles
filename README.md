@@ -62,6 +62,7 @@ The repository is organized into the following directories:
 | `Alt + L`                         | Move focus to the window on the right.                      |
 | **Change Focus Between Monitors**                                                              |
 | `Alt + S`                         | Switch focus to the monitor on the left.                    |
+| `Alt + G`                         | Switch focus to the monitor on the right.                    |
 | **Swap Windows**                                                                               |
 | `Shift + Alt + J`                 | Swap the current window with the one below it.              |
 | `Shift + Alt + K`                 | Swap the current window with the one above it.              |
