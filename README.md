@@ -55,40 +55,35 @@ The repository is organized into the following directories:
 
 | Shortcut                          | Description                                                 |
 | --------------------------------- | ----------------------------------------------------------- |
-| **Change Window Focus**           |                                                             |
+| **Change Window Focus**                                                                        |
 | `Alt + J`                         | Move focus to the window below the current one.             |
 | `Alt + K`                         | Move focus to the window above the current one.             |
 | `Alt + H`                         | Move focus to the window on the left.                       |
 | `Alt + L`                         | Move focus to the window on the right.                      |
-|                                   |                                                             |
-| **Change Focus Between Monitors** |                                                             |
+| **Change Focus Between Monitors**                                                              |
 | `Alt + S`                         | Switch focus to the monitor on the left.                    |
-| `Alt + G`                         | Switch focus to the monitor on the right.                   | |                                   |                                                             |
-| **Swap Windows**                  |                                                             |
+| **Swap Windows**                                                                               |
 | `Shift + Alt + J`                 | Swap the current window with the one below it.              |
 | `Shift + Alt + K`                 | Swap the current window with the one above it.              |
 | `Shift + Alt + H`                 | Swap the current window with the one on the left.           |
 | `Shift + Alt + L`                 | Swap the current window with the one on the right.          |
-|                                   |                                                             |
-| **Move Window to Space**          |                                                             |
+| **Move Window to Space**                                                                       |
 | `Shift + Alt + P`                 | Move the current window to the previous space.              |
 | `Shift + Alt + N`                 | Move the current window to the next space.                  |
 | `Shift + Alt + 1`                 | Move the current window to space 1.                         |
 | `Shift + Alt + 2`                 | Move the current window to space 2.                         |
 | `Shift + Alt + 3`                 | Move the current window to space 3.                         |
-|                                   |                                                             |
-| **Move Window to Display**        |                                                             |
+| **Move Window to Display**                                                                     |
 | `Shift + Alt + S`                 | Move the current window to the display on the left.         |
 | `Shift + Alt + G`                 | Move the current window to the display on the right.        |
-|                                   |                                                             |
-| **Resize Window**                 |                                                             |
+| **Resize Window**                                                                              |
 | `Ctrl + Alt + H`                  | Shrink the width of the current window.                     |
 | `Ctrl + Alt + J`                  | Shrink the height of the current window.                    |
 | `Ctrl + Alt + K`                  | Expand the height of the current window.                    |
 | `Ctrl + Alt + L`                  | Expand the width of the current window.                     |
 | `Alt + F`                         | Toggle between maximizing and restoring the current window. |
 | `Alt + E`                         | Balance the layout of windows in the current space.         |
-| **Alacritty Shortcuts**           |                                                             |
+| **Alacritty Shortcuts**                                                                        |
 | `Ctrl + N`                        | Create a new terminal window in Alacritty.                  |
 | `Ctrl + Q`                        | Quit Alacritty.                                             |
 | `Ctrl + L`                        | Clear the terminal screen in Alacritty.                     |
