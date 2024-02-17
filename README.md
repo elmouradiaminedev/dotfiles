@@ -1,6 +1,6 @@
 # Dotfiles Repository
 
-![Alt Text]("./thumbnail.png")
+![Alt Text](thumbnail.png)
 
 ## Description
 
