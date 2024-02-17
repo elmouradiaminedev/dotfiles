@@ -3,6 +3,9 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export FZF_DEFAULT_COMMAND='fd --type file --hidden --no-ignore'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
+autoload -U compinit
+compinit
+
 source ~/.fzf.zsh
 source ~/.fzf-tab/fzf-tab.plugin.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -14,5 +17,5 @@ eval "$(starship init zsh)"
 alias ls='lsd'
 alias l='lsd --almost-all --long'
 alias lt='lsd --tree --depth=2'
-
-neofetch 
+alias v='nvim' 
+alias vim='nvim' 
