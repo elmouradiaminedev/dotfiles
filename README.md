@@ -31,7 +31,7 @@ This repository contains my dotfiles, which are configuration files for various 
    ./bootstrap.sh
    ```
 
-   These scripts will setup macos defaults, install brew dependencies and symlink the dotfiles to your home directory. Review and backup your existing configurations before running the script.
+   These scripts will setup macos defaults, install brew dependencies and symlink the dotfiles to your home directory. Review and backup your existing configurations before running the scripts.
 
 ## Structure
 
@@ -86,11 +86,7 @@ The repository is organized into the following directories:
 | `Ctrl + Alt + J`                  | Shrink the height of the current window.                    |
 | `Ctrl + Alt + K`                  | Expand the height of the current window.                    |
 | `Ctrl + Alt + L`                  | Expand the width of the current window.                     |
-|                                   |                                                             |
-| **Maximize Window**               |                                                             |
 | `Alt + F`                         | Toggle between maximizing and restoring the current window. |
-|                                   |                                                             |
-| **Balance Tree of Windows**       |                                                             |
 | `Alt + E`                         | Balance the layout of windows in the current space.         |
 | **Alacritty Shortcuts**           |                                                             |
 | `Ctrl + N`                        | Create a new terminal window in Alacritty.                  |
@@ -98,6 +94,8 @@ The repository is organized into the following directories:
 | `Ctrl + L`                        | Clear the terminal screen in Alacritty.                     |
 | `Ctrl + R`                        | fzf through command history.                                |
 | `Ctrl + T`                        | fzf through current folder files.                           |
+
+Dive in the source code to find more shortcuts.
 
 ## Contributing
 
