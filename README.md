@@ -11,6 +11,7 @@ This repository contains my dotfiles, which are configuration files for various 
 - [Installation](#installation)
 - [Structure](#structure)
 - [Contributing](#contributing)
+- [Thanks](#Thanks)
 - [License](#license)
 
 ## Installation
