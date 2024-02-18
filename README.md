@@ -99,7 +99,10 @@ If you find any issues or have suggestions for improvements, please open an issu
 
 ## Thanks
 
-Special thanks to these amazing projects that served as a source of inspiration
+Special thanks to these amazing projects that served as a source of inspiration:
+- https://github.com/andrew8088/dotfiles
+- https://github.com/folke/dot
+- https://github.com/mathiasbynens/dotfiles
 
 ## License
 
