@@ -1,3 +1,4 @@
+export GPG_TTY=$(tty)
 export ZSH=$HOME/.oh-my-zsh
 export EDITOR='nvim'
 export ZOXIDE_CMD_OVERRIDE=cd
