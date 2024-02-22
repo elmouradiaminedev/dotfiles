@@ -2,26 +2,24 @@
 
 palette = "catppuccin_mocha"
 
+# Define the prompt format
 format = """
-$username\
-$hostname\
 $directory\
 $git_branch\
 $git_status\
 $git_metrics\
 $fill\
 $cmd_duration\
-$nodejs\
-$time
+$nodejs
 $character\
 """
 
-[character] 
-success_symbol = '[󰁔](bold green)' 
+[character]
+success_symbol = '[󰁔](bold green)'
 error_symbol = '[󰁔](bold red)'
 
 [git_branch]
-style="bold mauve"
+style = "bold mauve"
 format = '[$symbol$branch(:$remote_branch)]($style) '
 
 [git_metrics]
@@ -30,26 +28,18 @@ disabled = false
 [cmd_duration]
 format = ' [󱎫 $duration]($style) '
 
-[username]
-show_always = true 
-format = '[$user]($style) '
-
 [directory]
 style = "cyan bold"
 fish_style_pwd_dir_length = 3
 truncation_length = 3
 
 [fill]
-symbol = ' ' 
+symbol = ' '
 
 [nodejs]
 format = '[$symbol($version )]($style)'
 
-[time]
-disabled = false
-style = "bold white"
-format = "[$time]($style)"
-
+# Define the color palette "catppuccin_mocha"
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
 flamingo = "#f2cdcd"
@@ -77,3 +67,4 @@ surface0 = "#313244"
 base = "#1e1e2e"
 mantle = "#181825"
 crust = "#11111b"
+

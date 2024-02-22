@@ -47,3 +47,5 @@ yabai -m rule --add label="About This Mac" app="System Information" title="About
 yabai -m space 1 --label one
 yabai -m space 2 --label two
 yabai -m space 3 --label three
+
+borders style=round width=4.0 active_color=0xff89dceb inactive_color=0xff414550 &
