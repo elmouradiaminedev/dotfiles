@@ -26,29 +26,23 @@ This repository contains my dotfiles, which are configuration files for various 
 2. **Run the Installation Scripts:**
 
    ```bash
-   chmod +x macos.sh intall-deps.sh bootstrap.sh
-   ./macos.sh
-   ./install-deps.sh
-   ./bootstrap.sh
+   chmod +x install.sh bootstrap.sh osx.sh
+   scripts/bootstrap.sh
    ```
 
    These scripts will setup macos defaults, install brew dependencies and symlink the dotfiles to your home directory. Review and backup your existing configurations before running the scripts.
 
 ## Structure
 
-The repository is organized into the following directories:
+The repository contains the config for the following applications:
 
-- **alacritty:** Alacritty terminal emulator configuration.
-- **borders:** Configurations related to window borders.
-- **bottom:** Configuration for the bottom status bar.
+- **kitty:** Kitty a terminal emulator
 - **brew:** Homebrew package manager dependencies.
 - **git:** Git configuration files.
-- **install:** Installation scripts.
 - **nvim:** Neovim editor configurations.
 - **skhd:** Simple hotkey daemon configuration.
 - **starship:** Custom shell prompt configurations using Starship.
 - **tmux:** Terminal multiplexer configurations.
-- **wallpapers:** A collection of wallpapers.
 - **yabai:** Tiling window manager configurations.
 - **zsh:** Zsh shell configurations.
 
@@ -85,10 +79,10 @@ The repository is organized into the following directories:
 | `Ctrl + Alt + L`                  | Expand the width of the current window.                     |
 | `Alt + F`                         | Toggle between maximizing and restoring the current window. |
 | `Alt + E`                         | Balance the layout of windows in the current space.         |
-| **Alacritty Shortcuts**                                                                        |
-| `Ctrl + N`                        | Create a new terminal window in Alacritty.                  |
-| `Ctrl + Q`                        | Quit Alacritty.                                             |
-| `Ctrl + L`                        | Clear the terminal screen in Alacritty.                     |
+| **Kitty Shortcuts**                                                                        |
+| `Ctrl + N`                        | Create a new terminal window in Kitty.                  |
+| `Ctrl + Q`                        | Quit Kitty.                                             |
+| `Ctrl + L`                        | Clear the terminal screen in Kitty.                     |
 | `Ctrl + R`                        | fzf through command history.                                |
 | `Ctrl + T`                        | fzf through current folder files.                           |
 
