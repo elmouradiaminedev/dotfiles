@@ -1,6 +1,6 @@
 # Dotfiles Repository
 
-[Thumbnail](https://i.imgur.com/2RbQdum.png)
+![Thumbnail](https://i.imgur.com/2RbQdum.png)
 ## Description
 
 This repository contains my dotfiles, which are configuration files for various tools and applications. These dotfiles help me maintain a consistent development environment across different machines.
